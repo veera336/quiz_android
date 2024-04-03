@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "52528093327",
+    "firebase_url": "https://quizbox-3de82-default-rtdb.firebaseio.com",
+    "project_id": "quizbox-3de82",
+    "storage_bucket": "quizbox-3de82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52528093327:android:025635db6a0103ce5838fa",
+        "android_client_info": {
+          "package_name": "com.ayowainc.quizbox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiJlmDj_5jN5zc2qg_XfrUktAL_DG4XhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

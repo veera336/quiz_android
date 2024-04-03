@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ayowainc.quizbox">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@drawable/quizlogo1"
+        android:requestLegacyExternalStorage="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/quizlogo1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".worldclasscertificate"
+            android:exported="false" />
+        <activity
+            android:name=".professionalcertificate"
+            android:exported="false" />
+        <activity
+            android:name=".Beginnercertificate"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Level3PassCertificate"
+            android:exported="false" />
+        <activity
+            android:name=".Level2PassCertificate"
+            android:exported="false" />
+        <activity
+            android:name=".Passcertificate"
+            android:exported="false" />
+        <activity
+            android:name=".custom_levels"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <service
+            android:name=".Background_Music.MusicServiceActivity"
+            android:enabled="true" />
+
+        <activity android:name=".Category_Levels.Marketing.MarketingBeginnerActivity" />
+        <activity android:name=".Category_Levels.Marketing.MarketingProfessionalActivity" />
+        <activity android:name=".Category_Levels.Marketing.MarketingWorldClassActivity" />
+        <activity android:name=".Category_Levels.History.HistoryWorldClassActivity" />
+        <activity android:name=".Category_Levels.History.HistoryProfessionalActivity" />
+        <activity android:name=".Category_Levels.History.HistoryBeginnerActivity" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingBeginnerActivity" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingProfessionalActivity" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingWorldClassActivity" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaWorldClassActivity" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaProfessionalActivity" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaBeginnerActivity" />
+        <activity android:name=".Category_Levels.All_Knowledge.AllKnowledgeQuizActivity" />
+        <activity android:name=".Category_Levels.All_Knowledge.knowledgeLevel1" />
+        <activity android:name=".Category_Levels.All_Knowledge.knowledgeLevel2" />
+        <activity android:name=".Category_Levels.All_Knowledge.knowledgeLevel3" />
+        <activity android:name=".Category_Levels.Marketing.MarketingBeginnerLevel1" />
+        <activity android:name=".Category_Levels.Marketing.MarketingBeginnerLevel2" />
+        <activity android:name=".Category_Levels.Marketing.MarketingBeginnerLevel3" />
+        <activity android:name=".Category_Levels.Marketing.MarketingLevels" />
+        <activity android:name=".Category_Levels.Marketing.MarketingProfessionalLevel1" />
+        <activity android:name=".Category_Levels.Marketing.MarketingProfessionalLevel2" />
+        <activity android:name=".Category_Levels.Marketing.MarketingProfessionalLevel3" />
+        <activity android:name=".Category_Levels.Marketing.MarketingProfessionalLevels" />
+        <activity android:name=".Category_Levels.Marketing.MarketingWorldClassLevel3" />
+        <activity android:name=".Category_Levels.Marketing.MarketingWorldClassLevel2" />
+        <activity android:name=".Category_Levels.Marketing.MarketingWorldClassLevel1" />
+        <activity android:name=".Category_Levels.Marketing.MarketingWorldClassLevels" />
+        <activity android:name=".Category_Levels.History.HistoryBeginnerLevel3" />
+        <activity android:name=".Category_Levels.History.HistoryBeginnerLevels" />
+        <activity android:name=".Category_Levels.History.HistoryBeginnerLevel2" />
+        <activity android:name=".Category_Levels.History.HistoryBeginnerLevel1" />
+        <activity android:name=".Category_Levels.History.HistoryProfessionalLevel3" />
+        <activity android:name=".Category_Levels.History.HistoryProfessionalLevel2" />
+        <activity android:name=".Category_Levels.History.HistoryProfessionalLevel1" />
+        <activity android:name=".Category_Levels.History.HistoryProfessionalLevels" />
+        <activity android:name=".Category_Levels.History.HistoryWorldClassLevel1" />
+        <activity android:name=".Category_Levels.History.HistoryWorldClassLevel2" />
+        <activity android:name=".Category_Levels.History.HistoryWorldClassLevel3" />
+        <activity android:name=".Category_Levels.History.HistoryWorldClassLevels" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaLevels" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaBeginnerLevel3" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaBeginnerLevel2" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaBeginnerLevel1" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaProfessionalLevel3" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaProfessionalLevel2" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaProfessionalLevel1" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaProfessionalLevels" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaWorldClassLevel3" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaWorldClassLevel2" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaWorldClassLevel1" />
+        <activity android:name=".Category_Levels.Multimedia.MultimediaWorldClassLevels" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingBeginnerLevel3" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingBeginnerLevel2" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingBeginnerLevel1" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingBeginnerLevels" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingProfessionalLevel2" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingProfessionalLevel3" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingProfessionalLevel1" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingProfessionalLevels" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingWorldClassLevel3" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingWorldClassLevel2" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingWorldClassLevel1" />
+        <activity android:name=".Category_Levels.Programming.ProgrammingWorldClassLevels" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".User.UserProfileActivity" />
+        <activity android:name=".MenuHomeScreenActivity" />
+        <activity android:name=".User.SignUpActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.LoginActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
